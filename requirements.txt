@@ -1,5 +1,4 @@
-pandas
-numpy
-nltk
 transformers
 sentence-transformers
+pandas
+nltk
