@@ -1,8 +1,79 @@
 section,cleaned_content
-PERSONAL INFO,"Naga Jayadeep Narla Kanuru, Andhra Pradesh, India  +91 9493087464  jayadeep.narlagmail.com LinkedIn Profile  GitHub  Personal Blog"
-PROFESSIONAL SUMMARY,"Data Scientist  Machine Learning Engineer with an M.Sc. in Commercial Vehicle Technology RPTU Germany and a strong foundation in Mechanical Engineering. Experienced in building production-ready MLOps pipelines, deep learning models for computer vision, and time-series forecasting in industrial environments across research roles at DFKI and dual internships at Bosch. Proficient in Python, SQL, PyTorch, Docker, MLflow, with strong mathematical expertise in vector calculus, linear algebra, and statistical modeling."
-CORE COMPETENCIES  TECHNICAL SKILLS,"Languages  Querying: Python NumPy, Pandas, Scikit-Learn, PyTorch, SQL PostgreSQL, MSSQL, C++ Intermediate Machine Learning  Deep Learning: Time-Series Forecasting, Convolutional Variational Autoencoders CV AE, Random Forest Regressors, Computer Vision, Instance Segmentation, Object Detection, Image Processing MLOps  Infrastructure: Docker, Docker-Compose, MLflow, Prefect, Flask, Fast API, Evidently AI, Grafana, GitGitHub, CICD T ools, Databases  OS: Linux Ubuntu, VS Code, Jupyter Notebook, PowerBI, Grafana, MatlabSimulink Domain Expertise: Industrial Automation Industry 4.0, Robot Grasp Synthesis, Predictive Maintenance, Sensor Signal Decoding CAN bus"
-WORK EXPERIENCE  RESEARCH,"DFKI  RPTU Kaiserslautern Kaiserslautern, Germany Master Thesis: Optimal Grasping Strategy for work tool handover by cobotsCVRobotics Aug 2024  F eb 2025 Researched, designed, and trained end-to-end deep learning architectures object detection and instance segmen- tation on multi-GPU clusters for real-time cobot grasp synthesis. Built and annotated custom high-resolution image datasets, executing systematic data filtering and augmentation strategies to prevent model overfitting. Fine-tuned deep learning hyperparameters to maximize bounding box precision, mask segmentation and grasping rectangle generation for complex industrial work tools. An overall 68.75 of successful grasps across various tools have been achieved. Developed real-time camera inference scripts, converting 2D and 3D pixel coordinates into robot-space 3D matrices using rigid body transformation calculations. Evaluated real-time model latency and memory footprints to ensure smooth hardware execution on cobot embedded platforms. Bosch Stuttgart, Germany Data Science  Machine Learning Intern Prognostic Health Monitoring May 2023  Sep 2023 Decoded and parsed complex multivariate time-series sensor signals from Controller Area Network CAN bus protocols using DBC files for predictive maintenance tasks. Assisted in developing deep learning architectures using Convolutional Variational Autoencoders CV AE to detect early sensor anomalies and predict health deterioration in electronic components. Engineered modular Python preprocessing pipelines featuring strict error handling, automated logging, and data imputation to preserve critical time dependencies in continuous sensor data. Created real-time data visualizers and interactive plotting utilities to monitor feature distributions and signal drift during pipeline runtime. Documented end-to-end data processing workflows using detailed architectural flowcharts and maintained code quality through collaborating with other developers using GitGitHub. Bosch Homburg, Germany Data Science Intern Industry 4.0  Manufacturing Data Nov 2022  Jan 2023 Extracted, cleaned, and structured high-frequency time-series data from smart factory assembly lines to predict key quality parameters bore diameter tolerances. Engineered domain-specific features from raw sensor signals and conducted automated feature selection using correlation matrices and tree-based importance scores. Trained Random Forest Regressors using Grid Search CV and 5-fold cross-validation, achieving significant improve- ments in prediction accuracy over baseline statistical models. Designed dashboards to visualize model residual errors and feature importance distributions for manufacturing plant engineers."
-KEY PROJECTS  PORTFOLIO,"End-to-End Production MLOps Pipeline Iron Ore Quality Prediction May 2025  Jul 2025 DataTalksClub MLOps Zoomcamp Engineered a production-grade machine learning pipeline to predict iron ore quality parameters using continuous real-world industrial processing data. Standardized model experiment tracking and version management using MLflow, maintaining a centralized model registry for seamless deployment transitions. Orchestrated end-to-end training and inference workflows using Prefect, establishing automated scheduling and data validation. Containerized model deployment using Docker and Docker-Compose, serving real-time prediction endpoints via a lightweight Flask API web service. Integrated continuous monitoring tools using Evidently AI to detect data drift, logging metric telemetry into a PostgreSQL database and visualizing alerts on interactive Grafana dashboards. T echnical Blog  Applied Data Science Notes Jun 2026  Present Personal Technical Portfolio Authored technical breakdowns covering fundamental mathematical concepts in Data Science, focusing on vector calculus Jacobians, Hessians, matrix decomposition, and probability distributions. Published step-by-step implementations of exploratory data analysis EDA, hypothesis testing, and statistical sampling distributions in Python."
-EDUCATION  CERTIFICATIONS,"M.Sc. in Commercial V ehicle T echnology 2020  2025 RPTU Kaiserslautern-Landau, Germany Core Focus: 2D3D Computer Vision, Deep Learning, Bus Systems, Real-Time Systems Certification in Data Science and AI Oct 2022  May 2023 IIT Madras  Intellipaat Mastered RDBMS concepts and SQL execution DDL, DML, DCL, TCL on MSSQL Server for database manage- ment and analytical querying. Applied supervised and unsupervised machine learning algorithms, deep learning models, and PowerBI visualization workflows to complex datasets. B.T ech. in Mechanical Engineering 2016  2019 Acharya Nagarjuna University, India"
-LANGUAGES,English Professional Working Proficiency  German B1 Level  T eluguNative
+PERSONAL INFO,"Naga Jayadeep Narla
+Kanuru, Andhra Pradesh, India · +91 9493087464 · jayadeep.narla@gmail.com
+LinkedIn Profile · GitHub · Personal Blog"
+PROFESSIONAL SUMMARY,"Data Scientist  Machine Learning Engineer with an M.Sc. in Commercial Vehicle Technology (RPTU Germany)and a strong foundation in Mechanical Engineering. Experienced in building production-ready MLOps pipelines, deeplearning models for computer vision, and time-series forecasting in industrial environments across research roles atDFKI and dual internships at Bosch. Proficient in Python, SQL, PyTorch, Docker, MLflow, with strong mathematicalexpertise in vector calculus, linear algebra, and statistical modeling."
+CORE COMPETENCIES  TECHNICAL SKILLS,"Languages  Querying: Python (NumPy, Pandas, Scikit-Learn, PyTorch), SQL (PostgreSQL, MSSQL), C++
+(Intermediate)
+Machine Learning  Deep Learning: Time-Series Forecasting, Convolutional Variational Autoencoders (CV AE),
+Random Forest Regressors, Computer Vision, Instance Segmentation, Object Detection, Image Processing
+MLOps  Infrastructure: Docker, Docker-Compose, MLflow, Prefect, Flask, Fast API, Evidently AI, Grafana,
+Git/GitHub, CI/CD
+T ools, Databases  OS: Linux (Ubuntu), VS Code, Jupyter Notebook, PowerBI, Grafana, Matlab/Simulink
+Domain Expertise: Industrial Automation (Industry 4.0), Robot Grasp Synthesis, Predictive Maintenance,
+Sensor Signal Decoding (CAN bus)"
+WORK EXPERIENCE  RESEARCH,"DFKI  RPTU Kaiserslautern Kaiserslautern, Germany
+Master Thesis: Optimal Grasping Strategy for work tool handover by cobots(CVRobotics) Aug 2024 – F eb 2025
+Researched, designed, and trained end-to-end deep learning architectures (object detection and instance segmen-
+tation) on multi-GPU clusters for real-time cobot grasp synthesis.
+Built and annotated custom high-resolution image datasets, executing systematic data filtering and augmentation
+strategies to prevent model overfitting.
+Fine-tuned deep learning hyperparameters to maximize bounding box precision, mask segmentation and grasping
+rectangle generation for complex industrial work tools. An overall 68.75% of successful grasps across various tools
+have been achieved.
+Developed real-time camera inference scripts, converting 2D and 3D pixel coordinates into robot-space 3D matrices
+using rigid body transformation calculations.
+Evaluated real-time model latency and memory footprints to ensure smooth hardware execution on cobot embedded
+platforms.
+Bosch Stuttgart, Germany
+Data Science  Machine Learning Intern (Prognostic Health Monitoring) May 2023 – Sep 2023
+Decoded and parsed complex multivariate time-series sensor signals from Controller Area Network (CAN) bus
+protocols using DBC files for predictive maintenance tasks.
+Assisted in developing deep learning architectures using Convolutional Variational Autoencoders (CV AE) to detect
+early sensor anomalies and predict health deterioration in electronic components.
+Engineered modular Python preprocessing pipelines featuring strict error handling, automated logging, and data
+imputation to preserve critical time dependencies in continuous sensor data.
+Created real-time data visualizers and interactive plotting utilities to monitor feature distributions and signal drift
+during pipeline runtime.
+Documented end-to-end data processing workflows using detailed architectural flowcharts and maintained code
+quality through collaborating with other developers using Git/GitHub.
+Bosch Homburg, Germany
+Data Science Intern (Industry 4.0  Manufacturing Data) Nov 2022 – Jan 2023
+Extracted, cleaned, and structured high-frequency time-series data from smart factory assembly lines to predict
+key quality parameters (bore diameter tolerances).
+Engineered domain-specific features from raw sensor signals and conducted automated feature selection using
+correlation matrices and tree-based importance scores.
+Trained Random Forest Regressors using Grid Search CV and 5-fold cross-validation, achieving significant improve-
+ments in prediction accuracy over baseline statistical models.
+Designed dashboards to visualize model residual errors and feature importance distributions for manufacturing
+plant engineers."
+KEY PROJECTS  PORTFOLIO,"End-to-End Production MLOps Pipeline (Iron Ore Quality Prediction) May 2025 – Jul 2025
+DataTalksClub MLOps Zoomcamp
+Engineered a production-grade machine learning pipeline to predict iron ore quality parameters using continuous
+real-world industrial processing data.
+Standardized model experiment tracking and version management using MLflow, maintaining a centralized model
+registry for seamless deployment transitions.
+Orchestrated end-to-end training and inference workflows using Prefect, establishing automated scheduling and
+data validation.
+Containerized model deployment using Docker and Docker-Compose, serving real-time prediction endpoints via
+a lightweight Flask API web service.
+Integrated continuous monitoring tools using Evidently AI to detect data drift, logging metric telemetry into a
+PostgreSQL database and visualizing alerts on interactive Grafana dashboards.
+T echnical Blog  Applied Data Science Notes Jun 2026 – Present
+Personal Technical Portfolio
+Authored technical breakdowns covering fundamental mathematical concepts in Data Science, focusing on vector
+calculus (Jacobians, Hessians), matrix decomposition, and probability distributions.
+Published step-by-step implementations of exploratory data analysis (EDA), hypothesis testing, and statistical
+sampling distributions in Python."
+EDUCATION  CERTIFICATIONS,"M.Sc. in Commercial V ehicle T echnology 2020 – 2025
+RPTU Kaiserslautern-Landau, Germany
+Core Focus: 2D/3D Computer Vision, Deep Learning, Bus Systems, Real-Time Systems
+Certification in Data Science and AI Oct 2022 – May 2023
+IIT Madras  Intellipaat
+Mastered RDBMS concepts and SQL execution (DDL, DML, DCL, TCL) on MSSQL Server for database manage-
+ment and analytical querying.
+Applied supervised and unsupervised machine learning algorithms, deep learning models, and PowerBI visualization
+workflows to complex datasets.
+B.T ech. in Mechanical Engineering 2016 – 2019
+Acharya Nagarjuna University, India"
+LANGUAGES,English (Professional Working Proficiency) · German (B1 Level) · T elugu(Native)
